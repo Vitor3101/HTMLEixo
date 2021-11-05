@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 75%;
+    margin: 0, auto;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: black;
+}
+
+/* Inicio do header */
+
+header {
+    width: 100vw;
+    height: 6vw;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: center;
+}
+
+.apoio_header{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.apoio_header img{
+    height: 100%;
+    width: auto;
+}
+
+.apoio_header nav{
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    width: 100vw;
+    height: 1000px;
+    background-image: url("../Img/ImagemFundo.png");
+}
