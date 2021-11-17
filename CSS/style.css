@@ -20,7 +20,6 @@ a {
 }
 
 h1 {
-    font-size: 48px;
     color: white;
 }
 
@@ -30,7 +29,8 @@ h2 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 1.1vw;
+    text-transform: initial;
 }
 
 
@@ -99,14 +99,40 @@ main {
 }
 
 .fundo_texto_banner h3 {
-    font-size: 24px;
+    font-size: 1.6vw;
     color: #9E9E9E;
 }
 
+.linha_horizontal {
+    border: 2px solid black;
+    margin: 10px 0px;
+    /* Por algum motivo eu não consegui colocar apenas um margin simples */
+    width: 25%;
+}
+
+.apoio_curiosidades {
+    display: flex;
+    justify-content: end;
+    padding-top: 33.5px;
+    padding-bottom: 33.5px;
+}
+
 #apoio_curiosidades {
-    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 #apoio_curiosidades h3 {
     color: white;
+}
+
+#linha_horizontal_curiosidades {
+    width: 33%;
+    border-color: white;
+}
+
+#apoio_curiosidades P {
+    color: white;
+    text-align: end;
 }
