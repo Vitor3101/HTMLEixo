@@ -33,6 +33,16 @@ p {
     text-transform: initial;
 }
 
+article {
+    width: 25%;
+    height: 12vw;
+    background-color: #fff;
+    padding: 1.2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 /* Inicio do header */
 
@@ -135,4 +145,70 @@ main {
 #apoio_curiosidades P {
     color: white;
     text-align: end;
+    margin-bottom: 1.1vw;
 }
+
+#apoio_curiosidades button {
+    width: 25%;
+    height: 2.7vw;
+    border-radius: 20px;
+    font-size: 1.1vw;
+    color: white;
+    text-transform: uppercase;
+    background-color: #6F47FF;
+}
+
+/* Inicio Footer */
+
+footer {
+    background-color: #F4F4F4;
+}
+
+.apoio_titulo_footer {
+    height: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1vw;
+}
+
+
+.apoio_titulo_footer hr { 
+    width: 20%;
+    border: 3px solid black;
+}
+
+.apoio_destaques {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.apoio_destaques h5 {
+    color: black;
+    font-size: 1.4vw;
+}
+
+.paragrafo_footer {
+    margin-top: 0.6vw;
+}
+
+.corpo_footer {
+display: flex;
+align-items: center;
+}
+
+.corpo_footer_conteudo {
+display: flex;
+justify-content: space-between;
+}
+
+.corpo_footer_conteudo img {
+    height: 70%;
+    width: auto;
+}
+
+
