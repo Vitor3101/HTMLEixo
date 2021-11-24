@@ -6,21 +6,22 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
+    overflow-x: hidden;
 }
 
 .container {
-    width: 75%;
-    margin-left: 12.5%;
-    margin-right: 12.5%;
+    width: 80%;
+    margin: 0 10%;
 }
 
 a {
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     color: black;
 }
 
 h1 {
     color: white;
+    font-size: 2.7vw;
 }
 
 h2 {
@@ -34,13 +35,15 @@ p {
 }
 
 article {
-    width: 25%;
-    height: 12vw;
+    width: 22%;
+    height: 13vw;
     background-color: #fff;
     padding: 1.2vw;
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 4px 6px 11px rgba(133, 105, 108, 0.22);
+    border-radius: 8px;
 }
 
 
@@ -52,6 +55,8 @@ header {
     background-color: #F8F8F8;
     display: flex;
     justify-content: center;
+    position: fixed;
+    z-index: 99;
 }
 
 .apoio_header {
@@ -78,9 +83,18 @@ header {
 
 main {
     width: 100vw;
-    height: 1000px;
     background-size: 100% auto;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+    padding-top: 4.2vw;
+}
+
+.imagem_fundo {
+    width: 100vw;
+    height: 60vw;
     background-image: url("../Img/ImagemFundo.png");
+    clip-path: polygon(0 0, 100% 0, 100% 94%, 0% 100%);
+    background-size: cover;
 }
 
 .apoio_titulo {
@@ -97,11 +111,12 @@ main {
 
 .apoio_texto_banner {
     width: 100%;
-    height: 15vw;
+    height: 17vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
 }
 
 .fundo_texto_banner {
@@ -156,12 +171,15 @@ main {
     color: white;
     text-transform: uppercase;
     background-color: #6F47FF;
+    border: none;
 }
+
 
 /* Inicio Footer */
 
 footer {
     background-color: #F4F4F4;
+    margin-top: 2vw;
 }
 
 .apoio_titulo_footer {
@@ -173,42 +191,60 @@ footer {
     padding: 1vw;
 }
 
+.apoio_titulo_footer h4 {
+    color: #9E9E9E;
+    font-size: 24px;
+}
 
-.apoio_titulo_footer hr { 
-    width: 20%;
+.apoio_titulo_footer hr {
+    width: 11%;
+    border-radius: 5px;
     border: 3px solid black;
+    ;
 }
 
 .apoio_destaques {
     display: flex;
     justify-content: space-between;
     align-self: center;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    padding: 1vw;
 }
 
 .apoio_destaques h5 {
-    color: black;
     font-size: 1.4vw;
 }
 
 .paragrafo_footer {
     margin-top: 0.6vw;
+    color: #9E9E9E;
 }
 
 .corpo_footer {
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
+    height: 8vw;
+    background-color: #fff;
 }
 
 .corpo_footer_conteudo {
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
-.corpo_footer_conteudo img {
-    height: 70%;
-    width: auto;
+.corpo_footer_conteudo nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
 }
 
+.corpo_footer_conteudo nav a {
+    text-decoration: unset;
+}
 
+#logo_footer {
+    width: 11%;
+    height: auto;
+}
