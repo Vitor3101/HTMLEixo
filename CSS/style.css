@@ -248,3 +248,41 @@ footer {
     width: 11%;
     height: auto;
 }
+
+/*  CURIOSIDADES  */
+
+.box_titulo{
+    height: 14vw;
+    background-color: #fff;
+    clip-path: polygon(0 0, 100% 0, 100% 94%, 0% 100%);
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+.container_titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box_titulo h1{
+    color: #000;
+    font-size: 2.7vw;
+    margin-bottom: 30px;
+}
+.box_img_fundo{
+    background-image: url(../Img/ImagemFundo.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.box_conteudo{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    clip-path: polygon(100% 25%, 100% 100%, 0 100%, 0 28%); 
+    box-sizing: border-box;
+    padding-top: 300px;
+    padding-bottom: 100px;
+}
+.box_conteudo p{
+    margin-bottom: 30px;
+}
