@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@500&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     overflow-x: hidden;
 }
@@ -17,6 +18,11 @@
 a {
     font-size: 1.1vw;
     color: black;
+<<<<<<< HEAD
+=======
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+>>>>>>> e53ed4c34956e8b548e5a0c091c34d4219373a5a
     text-decoration: none;
 }
 
@@ -31,9 +37,10 @@ h2 {
 }
 
 p {
-    font-size: 1.1vw;
+    font-size: 1vw;
     text-transform: initial;
 }
+
 article {
     width: 22%;
     height: 13vw;
@@ -134,7 +141,7 @@ main {
     border: 2px solid black;
     margin: 10px 0px;
     /* Por algum motivo eu não consegui colocar apenas um margin simples */
-    width: 25%;
+    width: 22%;
 }
 
 .apoio_curiosidades {
@@ -155,7 +162,7 @@ main {
 }
 
 #linha_horizontal_curiosidades {
-    width: 33%;
+    width: 39%;
     border-color: white;
 }
 
@@ -172,7 +179,7 @@ main {
     font-size: 1.1vw;
     color: white;
     text-transform: uppercase;
-    background-color: #6F47FF;
+    background-color: #c12020;
     border: none;
 }
 
@@ -193,7 +200,7 @@ footer {
 }
 
 .apoio_titulo_footer h4 {
-    color: #9E9E9E;
+    color: black;
     font-size: 24px;
 }
 
@@ -243,52 +250,56 @@ footer {
     width: 15%;
 }
 
-.corpo_footer_conteudo nav a {
-    text-decoration: unset;
+.corpo_footer_conteudo ul li {
+    margin-bottom: 0.15vw;
 }
 
 #logo_footer {
-    width: 11%;
-    height: auto;
+    width: 15%;
+    height: 20%;
 }
+
 
 /*  CURIOSIDADES  */
 
-.box_titulo{
+.box_titulo {
     height: 14vw;
     background-color: #f4f4f4;
     box-sizing: border-box;
     padding-top: 50px;
 }
-.container_titulo{
+
+.container_titulo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.box_titulo h1{
+
+.box_titulo h1 {
     color: #000;
     font-size: 2.7vw;
     margin-bottom: 30px;
 }
-.box_img_fundo{
+
+.box_img_fundo {
     width: 100vw;
     height: 31vw;
     background-image: url("../Img/sobre.png");
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 94%, 0% 100%);
-    
 }
-.box_conteudo{
-    display: flex;  
+
+.box_conteudo {
+    display: flex;
     flex-direction: column;
     background-color: #f4f4f4;
     box-sizing: border-box;
     padding-top: 50px;
     padding-bottom: 100px;
-
 }
-.box_conteudo p{
+
+.box_conteudo p {
     margin-bottom: 30px;
     text-align: justify;
 }
