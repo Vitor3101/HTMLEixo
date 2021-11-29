@@ -40,7 +40,7 @@ p {
 
 article {
     width: 22%;
-    height: 13vw;
+    height: 14vw;
     background-color: #fff;
     padding: 1.2vw;
     display: flex;
@@ -136,7 +136,7 @@ main {
     border: 2px solid black;
     margin: 10px 0px;
     /* Por algum motivo eu não consegui colocar apenas um margin simples */
-    width: 22%;
+    width: 51%;
 }
 
 .apoio_curiosidades {
@@ -157,7 +157,7 @@ main {
 }
 
 #linha_horizontal_curiosidades {
-    width: 39%;
+    width: 43%;
     border-color: white;
 }
 
@@ -176,6 +176,10 @@ main {
     text-transform: uppercase;
     background-color: #c12020;
     border: none;
+}
+
+#apoio_curiosidades button a {
+    color: white;
 }
 
 
@@ -197,7 +201,7 @@ footer {
 
 .apoio_titulo_footer h4 {
     color: black;
-    font-size: 24px;
+    font-size: 1.3vw;
 }
 
 .apoio_titulo_footer hr {
@@ -246,6 +250,10 @@ footer {
 
 .corpo_footer_conteudo ul li {
     margin-bottom: 0.15vw;
+}
+
+.corpo_footer_conteudo ul li a {
+    font-family: 'Montserrat', sans-serif;
 }
 
 #logo_footer {
