@@ -18,11 +18,8 @@
 a {
     font-size: 1.1vw;
     color: black;
-<<<<<<< HEAD
-=======
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
->>>>>>> e53ed4c34956e8b548e5a0c091c34d4219373a5a
     text-decoration: none;
 }
 
@@ -83,7 +80,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
     width: 70%;
 }
 
@@ -239,7 +235,6 @@ footer {
     height: 8vw;
     background-color: #fff;
     border: #e8e8e8 1px solid;
-    
 }
 
 .corpo_footer_conteudo {
@@ -260,6 +255,7 @@ footer {
 
 .corpo_footer_conteudo ul li a {
     font-family: 'Montserrat', sans-serif;
+    font-size: 0.8vw;
 }
 
 #logo_footer {
@@ -312,54 +308,57 @@ footer {
     text-align: justify;
 }
 
-#main_curiosidades{
+#main_curiosidades {
     background-color: #f4f4f4;
 }
 
-.box_img_fundo_desvalorizacao{
+.box_img_fundo_desvalorizacao {
     width: 100vw;
     height: 26vw;
     background-image: url("../Img/desvalorizacao.png");
     clip-path: polygon(0 0, 100% 0, 100% 94%, 0% 100%);
-
 }
-.box_img_fundo_pandemia{
+
+.box_img_fundo_pandemia {
     width: 100vw;
     height: 26vw;
     background-image: url("../Img/pandemia.png");
     clip-path: polygon(0 0, 100% 0, 100% 94%, 0% 100%);
-
 }
-.box_img_fundo_sentimentalismo{
+
+.box_img_fundo_sentimentalismo {
     width: 100vw;
     height: 31vw;
     background-image: url("../Img/Sentimentalismo.png");
     clip-path: polygon(0 0, 100% 0, 100% 94%, 0% 100%);
     background-size: cover;
-
 }
-.box_img_fundo_importancia{
+
+.box_img_fundo_importancia {
     width: 100vw;
     height: 26vw;
     background-image: url("../Img/importancia.png");
     clip-path: polygon(0 0, 100% 0, 100% 94%, 0% 100%);
     background-size: cover;
 }
-.box_img_fundo_analise{
+
+.box_img_fundo_analise {
     width: 100vw;
     height: 31vw;
     background-image: url("../Img/Analise.png");
     clip-path: polygon(0 0, 100% 0, 100% 94%, 0% 100%);
     background-size: cover;
 }
-.box_img_fundo_consideracoes{
+
+.box_img_fundo_consideracoes {
     width: 100vw;
     height: 31vw;
     background-image: url("../Img/Consideracoes.png");
     clip-path: polygon(0 0, 100% 0, 100% 94%, 0% 100%);
     background-size: cover;
 }
-.box_img_fundo_intervencao{
+
+.box_img_fundo_intervencao {
     width: 100vw;
     height: 31vw;
     background-image: url("../Img/intervencao.png");
@@ -370,11 +369,11 @@ footer {
 
 /* EQUIPE */
 
-.box_equipe{
+.box_equipe {
     background-color: #f4f4f4;
-
 }
-.coluna_unica{
+
+.coluna_unica {
     height: 280px;
     border-bottom: #e8e8e8 2px solid;
     overflow: hidden;
@@ -382,7 +381,8 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
-.foto{
+
+.foto {
     width: 136px;
     height: 136px;
     border-radius: 50%;
@@ -390,16 +390,19 @@ footer {
     background-size: cover;
     background-position: center;
 }
-.foto img{
+
+.foto img {
     width: 100%;
     height: 100%;
 }
-.foto_professor{
+
+.foto_professor {
     width: 164px;
     height: 164px;
     border-radius: 50%;
     overflow: hidden;
 }
+
 .imagem_fundo_equipe {
     width: 100vw;
     background-image: url("../Img/ImagemFundo.png");
@@ -407,7 +410,8 @@ footer {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.coluna_dupla{
+
+.coluna_dupla {
     height: 520px;
     border-bottom: #e8e8e8 2px solid;
     overflow: hidden;
@@ -416,48 +420,54 @@ footer {
     align-items: center;
     flex-direction: column;
 }
-.coluna_cima{
+
+.coluna_cima {
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
-.coluna_baixa{
+
+.coluna_baixa {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
 }
-.coluna_final{
+
+.coluna_final {
     height: 280px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-.logo_equipe{
+
+.logo_equipe {
     width: 300px;
     height: 120px;
 }
 
-.container_conteudo span{
+.container_conteudo span {
     font-size: 21px;
     margin-top: 40px;
 }
-.analise_titulo{
+
+.analise_titulo {
     color: #000;
     margin-top: 100px;
     margin-bottom: 100px;
     font-size: 26px;
 }
-.box_conteudo_analise{
-    display: flex;  
+
+.box_conteudo_analise {
+    display: flex;
     flex-direction: column;
     background-color: #f4f4f4;
     box-sizing: border-box;
     padding-top: 50px;
     padding-bottom: 100px;
-
 }
-.box_conteudo_analise p{
+
+.box_conteudo_analise p {
     margin-bottom: 50px;
     text-align: justify;
 }
